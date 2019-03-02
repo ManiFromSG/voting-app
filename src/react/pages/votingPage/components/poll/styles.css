@@ -1,0 +1,28 @@
+.pollComponent {
+    margin-left: 10px;
+}
+
+.pollComponent .optionRow {
+    margin-top: 5px;
+}
+
+.pollComponent .optionRow input {
+    margin-top: 10px;
+    height: 15px;
+    width: 15px;
+}
+.pollComponent .optionRow label {
+   font-size: 25px;
+   padding-left: 5px;
+}
+
+
+.pollComponent .voteButton {
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    right: 5%;
+}

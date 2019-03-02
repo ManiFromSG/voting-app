@@ -1,0 +1,86 @@
+.questionnaireComponent .hide {
+    display: none;
+}
+
+.questionnaireComponent .questionnaireBody {
+    margin-bottom: 50px;
+}
+.questionnaireComponent .questionWrap > input {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    height: 25px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+.questionnaireComponent .questionWrap > button {
+    height: 35px;
+    width: 50px;
+    margin-top: 5px;
+
+}
+
+.questionnaireComponent .optionsWrap {
+    margin-top: 20px;
+}
+.questionnaireComponent .optionRow {
+    display: flex
+}
+
+.questionnaireComponent .optionRow .optionLabel {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    height: 25px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+.questionnaireComponent .optionRow  button {
+    height: 35px;
+    width: 50px;
+    margin-top: 5px;
+
+}
+
+.questionnaireComponent .newOptionWrap  input {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    height: 25px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+.questionnaireComponent .newOptionWrap  button {
+    height: 35px;
+    width: 50px;
+    margin-top: 5px;
+
+}
+
+.questionnaireComponent .resetWrap {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    right: 5%;
+}
+.questionnaireComponent .resetWrap  div {
+    min-width: 300px;
+    height: 25px;
+    padding: 5px 5px;
+    margin: 5px;
+    text-align: end;
+}
+
+.questionnaireComponent .resetWrap button {
+    height: 35px;
+    width: 50px;
+    margin-top: 5px;
+}

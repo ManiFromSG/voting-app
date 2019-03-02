@@ -1,0 +1,40 @@
+
+.headerWrap {
+    border: black;
+    border-style: solid;
+    height: 80px;
+    position: relative;
+}
+
+.headerWrap > h4 {
+    position: absolute;
+    margin-left: 10px;
+    bottom: 0px;
+}
+.bodyWrap {
+    border: black;
+    border-style: solid;
+    border-top-style: none;
+    display: flex;
+    min-height: 500px;
+}
+
+.questionnarieWrap, .pollWrap, .chartWrap {
+    position: relative;
+}
+
+.questionnarieWrap {
+    border: black;
+    border-right-style: solid;
+    width: 30%
+}
+
+.pollWrap {
+    border: black;
+    border-right-style: solid;
+    width: 30%
+}
+
+.chartWrap {
+    width: 40%
+}
