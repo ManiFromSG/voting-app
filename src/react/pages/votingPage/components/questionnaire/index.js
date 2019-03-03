@@ -134,14 +134,14 @@ Questionnaire.propTypes = {
     deleteOption: PropTypes.func,
     resetQuestionnaire: PropTypes.func
 }
-const mapStateToProps = ({voting}, ownProps) => {
+export const mapStateToProps = ({voting}, ownProps) => {
     return {
         question: voting.question,
         options: voting.listOfOptions
     }
 }
 
-const mapDispatchToProps = {
+export const mapDispatchToProps = {
     changeQuestion,
     addNewOption,
     deleteOption,

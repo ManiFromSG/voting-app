@@ -24,21 +24,4 @@ class Chart extends Component {
     }
 }
 
-Chart.propTypes = {
-    question: PropTypes.string,
-    chartData: PropTypes.array,
-    totalVotes: PropTypes.number
-}
-const mapStateToProps = ({voting}, ownProps) => {
-    return {
-        question: voting.question,
-        chartData: prepareChartData(voting.listOfOptions),
-        totalVotes: getTotalVotes(voting.listOfOptions)
-    };
-}
-
-const mapDispatchToProps = {
-
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Chart);
+export default Chart;

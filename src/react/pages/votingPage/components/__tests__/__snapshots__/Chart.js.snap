@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Chart Component Should render successfully 1`] = `
+<div
+  className="chartComponent"
+>
+  <h4>
+    Which is your favorite JS library?
+  </h4>
+  <div>
+    Total votes: 
+    24
+  </div>
+</div>
+`;

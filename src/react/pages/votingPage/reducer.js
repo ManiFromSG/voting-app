@@ -6,17 +6,9 @@ import {
     CAST_VOTE
 } from './actionTypes';
 
-const defaultState = {
-    question: 'Which is your favourite JavaScript library?',
-    listOfOptions: [
-        { value: 'React JS', votes: 8 },
-        { value: 'Angular', votes: 5 },
-        { value: 'jQuery', votes: 2 },
-        { value: 'Ember.js', votes: 4 }
-    ]
-}
+import {defaultState} from './defaultState';
 
-export default function questionnaireReducer(state = defaultState, action) {
+export default function votingReducer(state = defaultState, action) {
     switch(action.type){
         case CHANGE_QUESTION:
             return Object.assign({}, state, {question:action.question});
